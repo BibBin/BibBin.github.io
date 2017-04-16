@@ -6,17 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>BiBin的博客</title>
+  <title>VUE+AXIOS实现登录拦截Demo | BiBin的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="毕业于广师大，就职于老虎科技。擅长各项前端技能，深入研究移动端开发与前端性能。非专业切图仔一枚。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="BiBin的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="一个项目学会vue全家桶+axios实现登录、拦截、登出功能，以及利用axios的http拦截器拦截请求和响应。  前言通过这个项目学习如何实现一个前端项目中所需要的登录及拦截、登出、token失效的拦截及对应 axios 拦截器的使用。">
+<meta name="keywords" content="js,vue">
+<meta property="og:type" content="article">
+<meta property="og:title" content="VUE+AXIOS实现登录拦截Demo">
+<meta property="og:url" content="http://yoursite.com/2017/04/09/vue-axios-token/index.html">
 <meta property="og:site_name" content="BiBin的博客">
-<meta property="og:description" content="毕业于广师大，就职于老虎科技。擅长各项前端技能，深入研究移动端开发与前端性能。非专业切图仔一枚。">
+<meta property="og:description" content="一个项目学会vue全家桶+axios实现登录、拦截、登出功能，以及利用axios的http拦截器拦截请求和响应。  前言通过这个项目学习如何实现一个前端项目中所需要的登录及拦截、登出、token失效的拦截及对应 axios 拦截器的使用。">
+<meta property="og:updated_time" content="2017-04-16T04:48:27.553Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="BiBin的博客">
-<meta name="twitter:description" content="毕业于广师大，就职于老虎科技。擅长各项前端技能，深入研究移动端开发与前端性能。非专业切图仔一枚。">
+<meta name="twitter:title" content="VUE+AXIOS实现登录拦截Demo">
+<meta name="twitter:description" content="一个项目学会vue全家桶+axios实现登录、拦截、登出功能，以及利用axios的http拦截器拦截请求和响应。  前言通过这个项目学习如何实现一个前端项目中所需要的登录及拦截、登出、token失效的拦截及对应 axios 拦截器的使用。">
   
     <link rel="alternative" href="/atom.xml" title="BiBin的博客" type="application/atom+xml">
   
@@ -144,153 +146,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-vue-axios-token" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/10/hello-world/">致青春——烟花易冷</a>
-    </h1>
-  
-
-        
-        <a href="/2020/03/10/hello-world/" class="archive-article-date">
-  	<time datetime="2020-03-10T14:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-10</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>繁华声遁入空门折煞了世人<br>梦偏冷辗转一生情债又几本<br>如你默认生死枯等<br>枯等一圈又一圈的年轮<br>
-        
-          <a class="article-more-a" href="/2020/03/10/hello-world/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">心情</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">思念</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/03/10/hello-world/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-css-footerset" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/16/css-footerset/">CSS五种方式实现Footer置底</a>
-    </h1>
-  
-
-        
-        <a href="/2017/04/16/css-footerset/" class="archive-article-date">
-  	<time datetime="2017-04-16T14:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-16</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>页脚置底（Sticky footer）就是让网页的footer部分始终在浏览器窗口的底部。</p>
-<p>当网页内容足够长以至超出浏览器可视高度时，页脚会随着内容被推到网页底部；但如果网页内容不够长，置底的页脚就会保持在浏览器窗口底部。<br>
-        
-          <a class="article-more-a" href="/2017/04/16/css-footerset/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">css</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">技术</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/04/16/css-footerset/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-vue-axios-token" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/09/vue-axios-token/">VUE+AXIOS实现登录拦截Demo</a>
+    <h1 class="article-title" itemprop="name">
+      VUE+AXIOS实现登录拦截Demo
     </h1>
   
 
@@ -306,10 +169,48 @@
         <blockquote>
 <p>一个项目学会vue全家桶+axios实现登录、拦截、登出功能，以及利用axios的http拦截器拦截请求和响应。</p>
 </blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过这个项目学习如何实现一个前端项目中所需要的<br>登录及拦截、登出、token失效的拦截及对应 axios 拦截器的使用。<br>
-        
-          <a class="article-more-a" href="/2017/04/09/vue-axios-token/#more">more >></a>
-        
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>通过这个项目学习如何实现一个前端项目中所需要的<br>登录及拦截、登出、token失效的拦截及对应 axios 拦截器的使用。<br><a id="more"></a><br><strong>准备</strong><br>你需要先熟悉axios文档（<a href="https://github.com/mzabriskie/axios）。" target="_blank" rel="external">https://github.com/mzabriskie/axios）。</a></p>
+<ul>
+<li>发起http请求的方法</li>
+<li>http 请求成功时返回的数据及其类型</li>
+<li>http请求失败的处理</li>
+<li>拦截器的使用</li>
+<li>http的配置</li>
+</ul>
+<h2 id="src下项目结构"><a href="#src下项目结构" class="headerlink" title="src下项目结构"></a>src下项目结构</h2><p><strong>此项目demo是由vue-cli脚手架生成</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div></pre></td><td class="code"><pre><div class="line">|__ api  // 配置api接口文件</div><div class="line">  |__ account.js  </div><div class="line">|__ App.vue</div><div class="line">|__ assets  // 资源文件</div><div class="line">  |__ css</div><div class="line">    |__ base.scss</div><div class="line">    |__ min.scss</div><div class="line">    |__ personal.scss</div><div class="line">  |__ js  // 公共的function</div><div class="line">    |__ pubFunc.js</div><div class="line">|__ components</div><div class="line">  |__ Spinner.vue</div><div class="line">|__ main.js</div><div class="line">|__ page</div><div class="line">  |__ center</div><div class="line">    |__ index.vue</div><div class="line">  |__ market</div><div class="line">    |__ index.vue</div><div class="line">  |__ personal  // 登陆组件</div><div class="line">    |__ login.vue</div><div class="line">    |__ register.vue</div><div class="line">    |__ resetPassword.vue</div><div class="line">  |__ routerview</div><div class="line">    |__ index.vue</div><div class="line">  |__ tool</div><div class="line">    |__ index.vue</div><div class="line">  |__ viewing</div><div class="line">    |__ index.vue</div><div class="line">|__ router  </div><div class="line">  |__ index.js  // 配置路由</div><div class="line">  |__ router.js // 路由定义</div><div class="line">|__ store  // 状态管理</div><div class="line">  |__ global</div><div class="line">    |__ actions.js</div><div class="line">    |__ getters.js</div><div class="line">    |__ index.js</div><div class="line">    |__ mutations.js</div><div class="line">    |__ mutations_types.js</div><div class="line">    |__ state.js</div><div class="line">  |__ index.js</div><div class="line">|__ utils</div><div class="line">  |__ httpconfig.js  // 二次封装axios请求及http 拦截器配置文件</div><div class="line">  |__ localstorage.js  //利用class封装本地存储方法</div></pre></td></tr></table></figure></p>
+<h3 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h3><ul>
+<li>Vue 2.0</li>
+<li>vue-router</li>
+<li>vuex</li>
+<li>axios</li>
+<li>sass</li>
+</ul>
+<h3 id="登录拦截逻辑"><a href="#登录拦截逻辑" class="headerlink" title="登录拦截逻辑"></a>登录拦截逻辑</h3><h4 id="第一步：路由拦截"><a href="#第一步：路由拦截" class="headerlink" title="第一步：路由拦截"></a>第一步：路由拦截</h4><p>本项目是每次进来要强制先登陆的，所以路由定义不用添加自定义字段用于判断该路由是否要先登陆</p>
+<p>定义完路由后，我们主要是利用<code>vue-router</code>提供的钩子函数<code>beforeEach()</code>对路由进行判断。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">router.beforeEach(<span class="function">(<span class="params">to, <span class="keyword">from</span>, next</span>) =&gt;</span> &#123;</div><div class="line">  <span class="keyword">if</span> (!<span class="built_in">window</span>.localStorage.getItem(<span class="string">'token'</span>) &amp;&amp; to.path !== <span class="string">'/'</span> &amp;&amp; to.path !== <span class="string">'/register'</span> &amp;&amp; to.path !== <span class="string">'/resetpassword'</span>) &#123; <span class="comment">// 判断没有本地存储token,如果不是跳转登陆注册修改密码，则跳转到登陆</span></div><div class="line">    next(<span class="string">'/'</span>);</div><div class="line">  &#125; <span class="keyword">else</span> &#123;</div><div class="line">    <span class="keyword">if</span> (<span class="built_in">window</span>.localStorage.getItem(<span class="string">'token'</span>) &amp;&amp; to.path === <span class="string">'/'</span>) &#123; <span class="comment">//判断如果有本地存储token，用户打开应用则跳转到首页</span></div><div class="line">      next(&#123;</div><div class="line">        <span class="attr">path</span>: <span class="string">'/routerview'</span></div><div class="line">      &#125;);</div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">      next();</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure></p>
+<p>每个钩子方法接收三个参数：</p>
+<ul>
+<li>to: Route: 即将要进入的目标 路由对象</li>
+<li>from: Route: 当前导航正要离开的路由</li>
+<li>next: Function: 一定要调用该方法来 resolve 这个钩子。执行效果依赖 next 方法的调用参数。<ul>
+<li>next(): 进行管道中的下一个钩子。如果全部钩子执行完了，则导航的状态就是 confirmed （确认的）。</li>
+<li>next(false): 中断当前的导航。如果浏览器的 URL 改变了（可能是用户手动或者浏览器后退按钮），那么 URL 地址会重置到 from 路由对应的地址。</li>
+<li>next(‘/‘) 或者 next({ path: ‘/‘ }): 跳转到一个不同的地址。当前的导航被中断，然后进行一个新的导航。</li>
+</ul>
+</li>
+</ul>
+<p><strong>确保要调用 next 方法，否则钩子就不会被 resolved。</strong></p>
+<blockquote>
+<p>完整的方法见<code>/src/router.js</code></p>
+</blockquote>
+<p>登录拦截到这里就结束了吗？并没有。这种方式只是简单的前端路由控制，并不能真正阻止用户访问需要登录权限的路由。还有一种情况便是：当前token失效了，但是token依然保存在本地。这时候你去访问需要登录权限的路由时，实际上应该让用户重新登录。<br>这时候就需要结合 http 拦截器 + 后端接口返回的http 状态码来判断。</p>
+<h4 id="第二步：拦截器"><a href="#第二步：拦截器" class="headerlink" title="第二步：拦截器"></a>第二步：拦截器</h4><p>要想统一处理所有http请求和响应，就得用上 axios 的拦截器。通过配置<code>http response inteceptor</code>，当后端接口返回<code>401 Unauthorized（未授权）</code>，让用户重新登录。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 添加请求拦截器</span></div><div class="line">axios.interceptors.request.use(<span class="function"><span class="keyword">function</span> (<span class="params">config</span>) </span>&#123;</div><div class="line">  store.dispatch(<span class="string">'show_loading'</span>);</div><div class="line">  <span class="keyword">if</span>(store.state.global.token)&#123;</div><div class="line">    config.headers.Authorization = <span class="string">'Bearer '</span>+ <span class="string">`<span class="subst">$&#123;store.state.global.token&#125;</span>`</span>;</div><div class="line">  &#125;;</div><div class="line">  <span class="keyword">return</span> config;</div><div class="line">&#125;, <span class="function"><span class="keyword">function</span> (<span class="params">error</span>) </span>&#123;</div><div class="line">  store.dispatch(<span class="string">'hide_loading'</span>);</div><div class="line">  <span class="keyword">return</span> <span class="built_in">Promise</span>.reject(error);</div><div class="line">&#125;);</div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">// 添加响应拦截器</span></div><div class="line">axios.interceptors.response.use(<span class="function"><span class="keyword">function</span> (<span class="params">response</span>) </span>&#123;</div><div class="line">  store.dispatch(<span class="string">'hide_loading'</span>);</div><div class="line">  <span class="keyword">return</span> response;</div><div class="line">&#125;, <span class="function"><span class="keyword">function</span> (<span class="params">error</span>) </span>&#123;</div><div class="line"></div><div class="line">  <span class="keyword">if</span> (error.response) &#123;</div><div class="line">    <span class="keyword">switch</span> (error.response.status) &#123;</div><div class="line">      <span class="keyword">case</span> <span class="number">401</span>:</div><div class="line">        <span class="comment">// 返回 401 清除token信息并跳转到登录页面</span></div><div class="line">        store.dispatch(<span class="string">'remove_token'</span>);</div><div class="line">        router.replace(&#123;</div><div class="line">          <span class="attr">path</span>: <span class="string">'/'</span>,</div><div class="line">          <span class="attr">query</span>: &#123;<span class="attr">redirect</span>: router.currentRoute.fullPath&#125;</div><div class="line">        &#125;)</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">  store.dispatch(<span class="string">'hide_loading'</span>);</div><div class="line">  <span class="keyword">return</span> <span class="built_in">Promise</span>.reject(error)   <span class="comment">// 返回接口返回的错误信息</span></div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>完整的方法见<code>/src/utils/httpconfig.js</code>.</p>
+</blockquote>
+<p>通过上面这两步，就可以在前端实现登录拦截了。<code>登出</code>功能也就很简单，只需要把当前token清除，再跳转到首页即可。</p>
+<p>```</p>
+<p>另一种情况是应用一开始不是强制用户先登陆，而是进入应用之后，跳转路由才去判断用户需不需要用户先登陆才能进行下一步操作<br><a href="https://github.com/superman66/vue-axios-github?utm_source=tuicool&amp;utm_medium=referral" target="_blank" rel="external">这个业务情景我也帮你们找到demo了</a></p>
+
       
 
       
@@ -335,10 +236,6 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/04/09/vue-axios-token/">展开全文 >></a>
-        </p>
-      
 
       
       <div class="clearfix"></div>
@@ -346,7 +243,25 @@
   </div>
 </article>
 
-
+  
+<nav id="article-nav">
+  
+    <a href="/2017/04/01/thinner-than-1px-border/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          像素级细节：移动端1px border的实现
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/04/16/css-footerset/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">CSS五种方式实现Footer置底</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
 
 
 
@@ -354,78 +269,10 @@
 
 
   
-    <article id="post-thinner-than-1px-border" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/01/thinner-than-1px-border/">像素级细节：移动端1px border的实现</a>
-    </h1>
+    <div class="duoshuo"></div>
   
 
-        
-        <a href="/2017/04/01/thinner-than-1px-border/" class="archive-article-date">
-  	<time datetime="2017-04-01T12:11:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-04-01</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <blockquote>
-<p>请记住，每个尽责的设计师都是处女座…</p>
-</blockquote>
-<p>这里…没有黑处女座的意思，只是想借题发挥，并由衷的跪倒在强大的“像素眼”之下。<br>
-        
-          <a class="article-more-a" href="/2017/04/01/thinner-than-1px-border/#more">more >></a>
-        
-      
 
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">css3</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">html5</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2017/04/01/thinner-than-1px-border/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-
-
-
-
-
-
-
-  
-  
 
 
           </div>
@@ -447,8 +294,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
